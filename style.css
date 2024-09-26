@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#balance {
+    font-size: 1.5rem;
+}
+
+#income {
+    font-size: 1.25rem;
+}
+
+#expenses {
+    font-size: 1.25rem;
+}
+
+#list {
+    max-height: 300px;
+    overflow-y: auto;  
+    border: 1px solid #ccc; 
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.transaction-item.negative {
+    color: red;
+}
+
+.transaction-item.positive {
+    color: green;
+}
+
+.delete-btn {
+    color: red;
+    cursor: pointer;
+}
